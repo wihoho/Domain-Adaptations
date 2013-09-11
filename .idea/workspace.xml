@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="913016d1-2c6c-443f-8360-3a61f423badd" name="Default" comment="" />
+    <list default="true" id="913016d1-2c6c-443f-8360-3a61f423badd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="DomainAdaption.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378818052277" ignored="false" />
     <file path="/test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378737525505" ignored="false" />
     <file path="/DTMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378785262915" ignored="false" />
     <file path="/MKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378821088837" ignored="false" />
-    <file path="/AdaptiveSVM.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378825575490" ignored="false" />
+    <file path="/AdaptiveSVM.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378874118582" ignored="false" />
     <file path="/SVM_AT.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378825502878" ignored="false" />
     <file path="/SVM_T.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378824948795" ignored="false" />
     <file path="/FR.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378825626823" ignored="false" />
     <file path="/TestAll.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829313214" ignored="false" />
     <file path="/checkIndices.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378826708113" ignored="false" />
     <file path="/My_Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829611140" ignored="false" />
+    <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
+    <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378878921078" ignored="false" />
+    <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378876642417" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,56 +39,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestAll.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestAll.py">
+      <file leaf-file-name="ConceptAttribute.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="48" selection-start="1602" selection-end="1608" vertical-scroll-proportion="0.65524626">
-              <folding />
+            <state line="123" column="0" selection-start="4793" selection-end="4793" vertical-scroll-proportion="0.8895349">
+              <folding>
+                <element signature="e#23#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DTMKL.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DTMKL.py">
+      <file leaf-file-name="AMKL.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AMKL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="16" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <element signature="e#227#809#0" expanded="false" />
+                <element signature="e#1250#3647#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My_Test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/My_Test.py">
+      <file leaf-file-name="Utility.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="70" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MKL.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MKL.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="18" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkIndices.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkIndices.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM_T.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="32" selection-start="1611" selection-end="1617" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#22#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +80,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -104,11 +97,13 @@
         <option value="$PROJECT_DIR$/DTMKL.py" />
         <option value="$PROJECT_DIR$/SVM_T.py" />
         <option value="$PROJECT_DIR$/SVM_AT.py" />
-        <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
         <option value="$PROJECT_DIR$/FR.py" />
         <option value="$PROJECT_DIR$/checkIndices.py" />
         <option value="$PROJECT_DIR$/TestAll.py" />
         <option value="$PROJECT_DIR$/My_Test.py" />
+        <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
+        <option value="$PROJECT_DIR$/Utility.py" />
+        <option value="$PROJECT_DIR$/ConceptAttribute.py" />
       </list>
     </option>
   </component>
@@ -117,7 +112,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -151,6 +146,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -160,7 +165,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -178,70 +183,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DTMKL">
-    <configuration default="false" name="SVM_AT" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_AT.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestAll.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="checkIndices" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkIndices.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ConceptAttribute">
     <configuration default="false" name="My_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +217,69 @@
       <module name="DomainAdaption" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DTMKL.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdaptiveSVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaptiveSVM.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConceptAttribute" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConceptAttribute.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AMKL.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -342,19 +347,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SVM_AT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TestAll" />
-      <item index="2" class="java.lang.String" itemvalue="Python.checkIndices" />
-      <item index="3" class="java.lang.String" itemvalue="Python.My_Test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DTMKL" />
+      <item index="0" class="java.lang.String" itemvalue="Python.My_Test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DTMKL" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AMKL" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DTMKL" />
-        <item index="1" class="java.lang.String" itemvalue="Python.My_Test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.checkIndices" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TestAll" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SVM_AT" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="2" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DTMKL" />
+        <item index="4" class="java.lang.String" itemvalue="Python.My_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -386,17 +391,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.34895834" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6510417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.3875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.403125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31458333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -439,7 +444,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -477,43 +482,36 @@
           <line>109</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AdaptiveSVM.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="107" />
+      <option name="time" value="119" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MKL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="36" selection-start="6514" selection-end="6514" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="45" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AMKL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AMKL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LevelZero/all_labels_Level0.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/svm/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="5703" selection-end="5703" vertical-scroll-proportion="0.0" />
+        <state line="158" column="0" selection-start="5703" selection-end="5703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FR.py">
@@ -521,26 +519,9 @@
         <state line="45" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.4375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SVM_AT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AMKL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="0" selection-start="7296" selection-end="7296" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="32" selection-start="1611" selection-end="1617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkIndices.py">
@@ -573,8 +554,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="48" selection-start="1602" selection-end="1608" vertical-scroll-proportion="0.65524626">
+        <state line="36" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LevelZero/all_labels_Level0.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-19.74">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2563" column="0" selection-start="76786" selection-end="76786" vertical-scroll-proportion="0.7734375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="34" selection-start="4452" selection-end="4452" vertical-scroll-proportion="1.0275862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="41" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.47586206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMKL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="-7.8461537">
+          <folding>
+            <element signature="e#227#809#0" expanded="false" />
+            <element signature="e#1250#3647#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="4793" selection-end="4793" vertical-scroll-proportion="0.8895349">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

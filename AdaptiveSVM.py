@@ -30,17 +30,6 @@ def sliceArray(testArray, indices):
 
     return testArray[np.ix_(indices, indices)]
 
-def calculateMMD(baseKernls, s):
-
-    numberOfKernels = len(baseKernls)
-    h = np.zeros((numberOfKernels))
-
-    for i in range(numberOfKernels):
-        kernel = baseKernls[i]
-        temp = np.dot(np.transpose(s), kernel)
-        h[i] = np.dot(temp, s)
-
-    return h
 
 def runASVM(distances, labels, auxiliaryIndices, targetTrainingIndice, targetTestingIndice):
     all_trainingIndices = auxiliaryIndices + targetTrainingIndice
@@ -79,11 +68,11 @@ def runASVM(distances, labels, auxiliaryIndices, targetTrainingIndice, targetTes
 
             dv = clf.decision_function(Ktest)
 
-            targetTrainingFP = [dv[index] for index in targetTrainingIndice]
+            targetTrainingFP = [dv[index][0] for index in targetTrainingIndice]
             sizeFP = len(targetTrainingFP)
             targetTrainingFP = np.array(targetTrainingFP).reshape((sizeFP, 1))
 
-            testingFP = [dv[index] for index in targetTestingIndice]
+            testingFP = [dv[index][0] for index in targetTestingIndice]
 
             # Train classifier
             targetTrainKernel = sliceArray(baseKernel, targetTrainingIndice)
@@ -112,8 +101,11 @@ def runASVM(distances, labels, auxiliaryIndices, targetTrainingIndice, targetTes
 
 if __name__ == "__main__":
 
-    distances = loadmat("dist_SIFT_L0.mat")['distMat']
+    distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
     labels = loadmat("labels.mat")['labels']
+
+    distances = []
+    distances.append(distanceOne)
 
     all_aps = []
     for i in range(1,6,1):
