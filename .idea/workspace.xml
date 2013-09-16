@@ -20,6 +20,7 @@
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
     <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378878921078" ignored="false" />
     <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378876642417" ignored="false" />
+    <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379334641327" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,42 +34,57 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="SoftWeight.py" pinned="false" current="true" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="18" column="4" selection-start="798" selection-end="798" vertical-scroll-proportion="0.31578946">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="DomainAdaption" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConceptAttribute.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+      <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SVM_T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="4793" selection-end="4793" vertical-scroll-proportion="0.8895349">
+            <state line="71" column="27" selection-start="2325" selection-end="2340" vertical-scroll-proportion="0.57815844">
               <folding>
-                <element signature="e#23#51#0" expanded="true" />
+                <element signature="e#251#833#0" expanded="false" />
+                <element signature="e#876#918#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMKL.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AMKL.py">
+      <file leaf-file-name="TestAll.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="-7.8461537">
-              <folding>
-                <element signature="e#227#809#0" expanded="false" />
-                <element signature="e#1250#3647#0" expanded="false" />
-              </folding>
+            <state line="61" column="28" selection-start="1580" selection-end="1588" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utility.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utility.py">
+      <file leaf-file-name="My_Test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#22#33#0" expanded="true" />
-              </folding>
+            <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +120,7 @@
         <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
         <option value="$PROJECT_DIR$/Utility.py" />
         <option value="$PROJECT_DIR$/ConceptAttribute.py" />
+        <option value="$PROJECT_DIR$/SoftWeight.py" />
       </list>
     </option>
   </component>
@@ -153,6 +170,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewMethods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LevelZero" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,7 +442,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.3875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18623266" sideWeight="0.3875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -507,18 +552,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/svm/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="5703" selection-end="5703" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.4375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SVM_AT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.33333334" />
@@ -533,16 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="18" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="84" column="18" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DTMKL.py">
@@ -552,32 +576,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LevelZero/all_labels_Level0.pkl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-19.74">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-19.74" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="54" column="0" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2563" column="0" selection-start="76786" selection-end="76786" vertical-scroll-proportion="0.7734375">
-          <folding />
-        </state>
+        <state line="2563" column="0" selection-start="76786" selection-end="76786" vertical-scroll-proportion="0.7734375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
@@ -587,38 +598,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="41" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.47586206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+        <state line="121" column="0" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.32148626">
           <folding>
-            <element signature="e#22#33#0" expanded="true" />
+            <element signature="e#23#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="-7.8461537">
+        <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="0.019386107">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="28" selection-start="1580" selection-end="1588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewMethods/KodakSoftWeight_labels_Level0.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="27" selection-start="2325" selection-end="2340" vertical-scroll-proportion="0.57815844">
           <folding>
-            <element signature="e#227#809#0" expanded="false" />
-            <element signature="e#1250#3647#0" expanded="false" />
+            <element signature="e#251#833#0" expanded="false" />
+            <element signature="e#876#918#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="4793" selection-end="4793" vertical-scroll-proportion="0.8895349">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
+        <state line="18" column="4" selection-start="798" selection-end="798" vertical-scroll-proportion="0.31578946">
+          <folding />
         </state>
       </provider>
     </entry>
