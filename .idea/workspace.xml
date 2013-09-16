@@ -20,7 +20,7 @@
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
     <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378878921078" ignored="false" />
     <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378876642417" ignored="false" />
-    <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379334641327" ignored="false" />
+    <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379335718397" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +34,16 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="SoftWeight.py" pinned="false" current="true" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/SoftWeight.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="18" column="4" selection-start="798" selection-end="798" vertical-scroll-proportion="0.31578946">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="DomainAdaption" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="true">
+      <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM_T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="27" selection-start="2325" selection-end="2340" vertical-scroll-proportion="0.57815844">
+            <state line="37" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#251#833#0" expanded="false" />
                 <element signature="e#876#918#0" expanded="false" />
@@ -74,8 +55,10 @@
       <file leaf-file-name="TestAll.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="28" selection-start="1580" selection-end="1588" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="14" column="45" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#239#5996#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +68,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftWeight.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.52380955">
+              <folding>
+                <element signature="e#23#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +149,7 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,17 +198,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -228,26 +222,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ConceptAttribute">
-    <configuration default="false" name="My_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SoftWeight">
     <configuration default="false" name="DTMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,6 +307,27 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="SoftWeight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftWeight.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.My_Test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DTMKL" />
-      <item index="2" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
-      <item index="4" class="java.lang.String" itemvalue="Python.AMKL" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DTMKL" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+      <item index="3" class="java.lang.String" itemvalue="Python.AMKL" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SoftWeight" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AMKL" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DTMKL" />
-        <item index="4" class="java.lang.String" itemvalue="Python.My_Test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SoftWeight" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+        <item index="2" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DTMKL" />
       </list>
     </recent_temporary>
   </component>
@@ -435,18 +431,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18623266" sideWeight="0.3875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18836713" sideWeight="0.5530146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44698545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31458333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31392932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -547,8 +543,13 @@
           <line>158</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftWeight.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="119" />
+      <option name="time" value="125" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -600,11 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.32148626">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="121" column="0" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.32148626" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
@@ -616,9 +613,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355">
-          <folding />
-        </state>
+        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewMethods/KodakSoftWeight_labels_Level0.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/My_Test.py">
@@ -630,21 +630,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="28" selection-start="1580" selection-end="1588" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewMethods/KodakSoftWeight_labels_Level0.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="45" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#239#5996#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM_T.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="27" selection-start="2325" selection-end="2340" vertical-scroll-proportion="0.57815844">
+        <state line="37" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#251#833#0" expanded="false" />
             <element signature="e#876#918#0" expanded="false" />
@@ -654,8 +649,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SoftWeight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="798" selection-end="798" vertical-scroll-proportion="0.31578946">
-          <folding />
+        <state line="48" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.52380955">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
