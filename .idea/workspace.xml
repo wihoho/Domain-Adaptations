@@ -21,6 +21,7 @@
     <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378878921078" ignored="false" />
     <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378876642417" ignored="false" />
     <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379335718397" ignored="false" />
+    <file path="/YoutubeCompression.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379346181585" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,9 @@
       <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM_T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+            <state line="126" column="0" selection-start="3876" selection-end="4078" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#251#833#0" expanded="false" />
-                <element signature="e#876#918#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,12 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoftWeight.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SoftWeight.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoftWeight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.52380955">
+            <state line="46" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#23#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeCompression.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="26" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5696784">
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,6 +126,7 @@
         <option value="$PROJECT_DIR$/Utility.py" />
         <option value="$PROJECT_DIR$/ConceptAttribute.py" />
         <option value="$PROJECT_DIR$/SoftWeight.py" />
+        <option value="$PROJECT_DIR$/YoutubeCompression.py" />
       </list>
     </option>
   </component>
@@ -222,49 +234,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SoftWeight">
-    <configuration default="false" name="DTMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DTMKL.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AdaptiveSVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaptiveSVM.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.YoutubeCompression">
     <configuration default="false" name="ConceptAttribute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,6 +291,48 @@
       <module name="DomainAdaption" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftWeight.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YoutubeCompression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YoutubeCompression.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVM_T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_T.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -388,19 +400,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.DTMKL" />
-      <item index="1" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AMKL" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SoftWeight" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AMKL" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SoftWeight" />
+      <item index="3" class="java.lang.String" itemvalue="Python.YoutubeCompression" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SVM_T" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SoftWeight" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AMKL" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AdaptiveSVM" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DTMKL" />
+        <item index="0" class="java.lang.String" itemvalue="Python.YoutubeCompression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SVM_T" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SoftWeight" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AMKL" />
       </list>
     </recent_temporary>
   </component>
@@ -432,17 +444,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18836713" sideWeight="0.5530146" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44698545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18836713" sideWeight="0.7079002" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44698545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31392932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2920998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -548,16 +560,21 @@
           <line>40</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/YoutubeCompression.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/SVM_T.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="125" />
+      <option name="time" value="132" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SVM_AT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkIndices.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
@@ -613,7 +630,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355" />
+        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NewMethods/KodakSoftWeight_labels_Level0.pkl">
@@ -637,21 +656,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+        <state line="46" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#251#833#0" expanded="false" />
-            <element signature="e#876#918#0" expanded="false" />
+            <element signature="e#23#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.52380955">
+        <state line="126" column="0" selection-start="3876" selection-end="4078" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#23#51#0" expanded="true" />
+            <element signature="e#251#833#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="26" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5696784">
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

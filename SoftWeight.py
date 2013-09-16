@@ -45,8 +45,6 @@ def evaluate(distance):
     print "standard deviation: "+str(sd)
 
 
-
-
 if __name__ == "__main__":
     import Utility as util
 
