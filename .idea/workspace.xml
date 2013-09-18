@@ -18,7 +18,7 @@
     <file path="/checkIndices.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378826708113" ignored="false" />
     <file path="/My_Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829611140" ignored="false" />
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
-    <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379520005793" ignored="false" />
+    <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379522375738" ignored="false" />
     <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379517733963" ignored="false" />
     <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379335718397" ignored="false" />
     <file path="/YoutubeCompression.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379515955940" ignored="false" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="ConceptAttribute.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="89" selection-start="214" selection-end="238" vertical-scroll-proportion="0.052473765">
+            <state line="148" column="20" selection-start="5355" selection-end="5355" vertical-scroll-proportion="0.7301349">
               <folding />
             </state>
           </provider>
@@ -432,7 +432,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27754676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27754676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27754676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -554,7 +554,7 @@
           <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="148" />
+      <option name="time" value="149" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -660,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="89" selection-start="214" selection-end="238" vertical-scroll-proportion="0.052473765">
+        <state line="148" column="20" selection-start="5355" selection-end="5355" vertical-scroll-proportion="0.7301349">
           <folding />
         </state>
       </provider>

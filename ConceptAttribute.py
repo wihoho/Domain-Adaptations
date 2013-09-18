@@ -9,7 +9,7 @@ import random
 
 def runConceptAttribute(distances, labels, acturalSemanticLabels,auxiliaryTrainingIndices, targetTrainingIndices, targetTestingIndices):
 
-    all_trainingIndices = auxiliaryTrainingIndices + targetTrainingIndices
+    all_trainingIndices = targetTrainingIndices
 
     baseKernels = []
     for i in range(len(distances)):
@@ -119,7 +119,8 @@ def randomEvaluate(distance, binaryLabel, semanticLabels):
 
     base = baseLineSVMT(distance, semanticLabels, trainingIndice, testingIndice)
 
-    auxiliaryTraining = [i for i in range(195, 1101, 1)]
+    # auxiliaryTraining = [i for i in range(195, 1101, 1)]
+    auxiliaryTraining = trainingIndice
     cs = runConceptAttribute(distance, binaryLabel, semanticLabels ,auxiliaryTraining, trainingIndice, testingIndice)
 
     return base, cs
