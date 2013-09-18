@@ -5,26 +5,26 @@ import numpy as np
 import random
 import SVM_T
 
-def randomEvaluate(distance, binaryLabel):
+def randomEvaluate(distance, binaryLabel, semanticLabels):
 
     # construct training indices and testing indices
     labelIndices = []
     setlabels = ["birthday", "picnic", "parade", "show", "sports", "wedding"]
 
     for label in setlabels:
-        labelIndices.append([i for i in range(len(compressedLabels)) if compressedLabels[i] == label])
+        labelIndices.append([i for i in range(len(semanticLabels)) if semanticLabels[i] == label])
 
     trainingIndice = []
     for labelIndice in labelIndices:
         # Select 30 indices from labelIndice
         trainingIndice += random.sample(labelIndice, 40)
 
-    testingIndice = [i for i in range(len(compressedLabels))]
+    testingIndice = [i for i in range(len(semanticLabels))]
     for indice in trainingIndice:
         testingIndice.remove(indice)
 
     # SVM_T to test the above cases
-    aps = SVM_T.runSVM_T(distance, binaryLabels, trainingIndice,testingIndice)
+    aps = SVM_T.runSVM_T(distance, binaryLabel, trainingIndice,testingIndice)
 
     return aps
 

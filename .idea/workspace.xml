@@ -18,10 +18,10 @@
     <file path="/checkIndices.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378826708113" ignored="false" />
     <file path="/My_Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829611140" ignored="false" />
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
-    <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378878921078" ignored="false" />
-    <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378876642417" ignored="false" />
+    <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379520005793" ignored="false" />
+    <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379517733963" ignored="false" />
     <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379335718397" ignored="false" />
-    <file path="/YoutubeCompression.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379346181585" ignored="false" />
+    <file path="/YoutubeCompression.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379515955940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +44,10 @@
       <file leaf-file-name="SVM_T.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM_T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="0" selection-start="3876" selection-end="4078" vertical-scroll-proportion="0.0">
+            <state line="86" column="56" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#251#833#0" expanded="false" />
+                <element signature="e#876#918#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -55,10 +56,8 @@
       <file leaf-file-name="TestAll.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#239#5996#0" expanded="false" />
-              </folding>
+            <state line="79" column="84" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,30 +65,37 @@
       <file leaf-file-name="My_Test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+            <state line="19" column="11" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoftWeight.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+      <file leaf-file-name="ConceptAttribute.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+            <state line="9" column="89" selection-start="214" selection-end="238" vertical-scroll-proportion="0.052473765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeCompression.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="4" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#23#51#0" expanded="true" />
+                <element signature="e#23#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YoutubeCompression.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+      <file leaf-file-name="Utility.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="26" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5696784">
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
+            <state line="61" column="0" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,10 +129,10 @@
         <option value="$PROJECT_DIR$/TestAll.py" />
         <option value="$PROJECT_DIR$/My_Test.py" />
         <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
-        <option value="$PROJECT_DIR$/Utility.py" />
-        <option value="$PROJECT_DIR$/ConceptAttribute.py" />
         <option value="$PROJECT_DIR$/SoftWeight.py" />
         <option value="$PROJECT_DIR$/YoutubeCompression.py" />
+        <option value="$PROJECT_DIR$/Utility.py" />
+        <option value="$PROJECT_DIR$/ConceptAttribute.py" />
       </list>
     </option>
   </component>
@@ -161,7 +167,6 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,36 +185,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DomainAdaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DomainAdaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DomainAdaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DomainAdaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LevelZero" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +212,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.YoutubeCompression">
+  <component name="RunManager" selected="Python.ConceptAttribute">
     <configuration default="false" name="ConceptAttribute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,10 +386,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.YoutubeCompression" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SVM_T" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SoftWeight" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ConceptAttribute" />
+        <item index="1" class="java.lang.String" itemvalue="Python.YoutubeCompression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SVM_T" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SoftWeight" />
         <item index="4" class="java.lang.String" itemvalue="Python.AMKL" />
       </list>
     </recent_temporary>
@@ -450,11 +428,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18836713" sideWeight="0.7079002" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44698545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17235859" sideWeight="0.72245324" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27754676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2920998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27754676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -570,18 +548,16 @@
           <line>116</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/ConceptAttribute.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="132" />
+      <option name="time" value="148" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkIndices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MKL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="18" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0" />
@@ -616,21 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.32148626" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="0" selection-start="4931" selection-end="4931" vertical-scroll-proportion="0.019386107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="719" selection-end="719" vertical-scroll-proportion="0.47468355">
           <folding />
         </state>
       </provider>
@@ -640,46 +604,64 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="56" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#251#833#0" expanded="false" />
+            <element signature="e#876#918#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkIndices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.3598201">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/My_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+        <state line="19" column="11" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#239#5996#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="3876" selection-end="4078" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#251#833#0" expanded="false" />
-          </folding>
+        <state line="79" column="84" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="26" selection-start="880" selection-end="880" vertical-scroll-proportion="0.5696784">
+        <state line="7" column="4" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#23#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="89" selection-start="214" selection-end="238" vertical-scroll-proportion="0.052473765">
+          <folding />
         </state>
       </provider>
     </entry>
