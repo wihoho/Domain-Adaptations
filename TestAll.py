@@ -118,6 +118,8 @@ def evaluate(distanceOne, excelName, labels):
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
 
+    print "SVM_T: " +str(meanAP)
+
     ws = wb.add_sheet("SVM_AT")
     tempArray = np.array(SVM_AT_aps)
     for i in range(tempArray.shape[0]):
@@ -129,6 +131,9 @@ def evaluate(distanceOne, excelName, labels):
     sd = np.std(rowMean)
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
+
+    print "SVM_AT: " +str(meanAP)
+
 
     ws = wb.add_sheet("FR")
     tempArray = np.array(FR_aps)
@@ -142,6 +147,8 @@ def evaluate(distanceOne, excelName, labels):
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
 
+    print "FR: " +str(meanAP)
+
     ws = wb.add_sheet("A-SVM")
     tempArray = np.array(A_SVM_aps)
     for i in range(tempArray.shape[0]):
@@ -153,6 +160,9 @@ def evaluate(distanceOne, excelName, labels):
     sd = np.std(rowMean)
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
+
+    print "A-SVM: " +str(meanAP)
+
 
     ws = wb.add_sheet("MKL")
     tempArray = np.array(MKL_aps)
@@ -166,6 +176,9 @@ def evaluate(distanceOne, excelName, labels):
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
 
+    print "MKL: " +str(meanAP)
+
+
     ws = wb.add_sheet("DTSVM")
     tempArray = np.array(DT_SVM_aps)
     for i in range(tempArray.shape[0]):
@@ -177,6 +190,9 @@ def evaluate(distanceOne, excelName, labels):
     sd = np.std(rowMean)
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
+
+    print "DTSVM: " +str(meanAP)
+
 
     ws = wb.add_sheet("A-MKL")
     tempArray = np.array(A_MKL_aps)
@@ -190,9 +206,9 @@ def evaluate(distanceOne, excelName, labels):
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
 
+    print "A-SVM: " +str(meanAP)
 
     wb.save(excelName)
-
 
 if __name__ == "__main__":
 

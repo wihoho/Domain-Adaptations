@@ -10,7 +10,6 @@ def constructBaseKernels(kernel_type, kernel_params, D2):
     baseKernels = []
 
     for i in range(len(kernel_type)):
-
         for j in range(len(kernel_params)):
 
             type = kernel_type[i]

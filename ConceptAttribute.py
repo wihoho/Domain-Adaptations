@@ -5,9 +5,9 @@ import math
 import numpy as np
 from sklearn.svm import SVC
 import Utility as util
-import random
+from sklearn.naive_bayes import GaussianNB
 
-def runConceptAttribute(distances, labels, acturalSemanticLabels,auxiliaryTrainingIndices, targetTrainingIndices, targetTestingIndices):
+def runConceptAttribute(distances, labels, acturalSemanticLabels,auxiliaryTrainingIndices, targetTrainingIndices, targetTestingIndices, classificationMethod):
 
     all_trainingIndices = targetTrainingIndices
 
@@ -69,12 +69,21 @@ def runConceptAttribute(distances, labels, acturalSemanticLabels,auxiliaryTraini
     actualTrainLabels = [acturalSemanticLabels[i] for i in targetTrainingIndices]
     actualTestLabels = [acturalSemanticLabels[i] for i in targetTestingIndices]
 
+    # Classify using different approaches
+    if classificationMethod == "SVM":
 
-    SVMmodel = SVC(kernel = "rbf")
-    SVMmodel.fit(targetTrainingConceptScores, actualTrainLabels)
-    ap = SVMmodel.score(targetTestingConceptScores, actualTestLabels)
+        SVMmodel = SVC(kernel = "rbf")
+        SVMmodel.fit(targetTrainingConceptScores, actualTrainLabels)
+        ap = SVMmodel.score(targetTestingConceptScores, actualTestLabels)
 
-    print "Rbf: " +str(ap)
+        print "SVM_Rbf: " +str(ap)
+
+    if classificationMethod == "NaiveBayes":
+        gnb = GaussianNB()
+        gnb.fit(targetTrainingConceptScores, actualTrainLabels)
+        ap = gnb.score(targetTestingConceptScores, actualTestLabels)
+        print "Naive Bayes: " +str(ap)
+
 
     return ap
 
@@ -113,16 +122,18 @@ def baseLineSVMT(distances, semanticLabels, targetTrainingIndice, targetTestingI
 
     return ap
 
-def randomEvaluate(distance, binaryLabel, semanticLabels):
+def randomEvaluate(distance, binaryLabel, semanticLabels, youtubeOrNot, classificationMethod):
 
     trainingIndice, testingIndice = util.generateRandomIndices(semanticLabels, 3)
 
     base = baseLineSVMT(distance, semanticLabels, trainingIndice, testingIndice)
 
-    # auxiliaryTraining = [i for i in range(195, 1101, 1)]
-    auxiliaryTraining = trainingIndice
-    cs = runConceptAttribute(distance, binaryLabel, semanticLabels ,auxiliaryTraining, trainingIndice, testingIndice)
+    if youtubeOrNot:
+        auxiliaryTraining = [i for i in range(195, 1101, 1)]
+    else:
+        auxiliaryTraining = trainingIndice
 
+    cs = runConceptAttribute(distance, binaryLabel, semanticLabels ,auxiliaryTraining, trainingIndice, testingIndice, classificationMethod)
     return base, cs
 
 
@@ -147,7 +158,7 @@ if __name__ == "__main__":
     ws = wb.add_sheet("Concept Attribute")
 
     for i in range(20):
-        base, cs = randomEvaluate(distances, binaryLabel, semanticLabels)
+        base, cs = randomEvaluate(distances, binaryLabel, semanticLabels, False, "SVM")
         ws.write(0, i, base)
         ws.write(1, i, cs)
 

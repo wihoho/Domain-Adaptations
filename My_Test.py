@@ -17,5 +17,5 @@ templabels = loadmat("labels.mat")['labels']
 tempList = []
 tempList.append(distanceOne)
 
-TestAll.evaluate(tempList, "MyDistance_SIFT_L0_Result.xls", templabels)
+TestAll.evaluate(tempList, "MyDistance_SIFT_L0_Result2.xls", templabels)
 print "SIFT L0"

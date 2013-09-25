@@ -89,6 +89,7 @@ def runASVM(distances, labels, auxiliaryIndices, targetTrainingIndice, targetTes
 
             testScores = SVMmodel.decision_function(targetTestKernel)
             finalTestScores = np.vstack((finalTestScores, np.transpose(testScores)))
+
         # Fuse final scores together
         finalTestScores = finalTestScores[1:]
         tempFinalTestScores = 1.0 / (1 + math.e **(-finalTestScores))
