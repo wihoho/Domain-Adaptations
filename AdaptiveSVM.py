@@ -2,7 +2,7 @@ from scipy.io import loadmat
 import math
 import numpy as np
 from sklearn.svm import SVC
-from sklearn.metrics import average_precision_score
+import Utility as util
 
 def constructBaseKernels(kernel_type, kernel_params, D2):
 
@@ -95,7 +95,8 @@ def runASVM(distances, labels, auxiliaryIndices, targetTrainingIndice, targetTes
         tempFinalTestScores = 1.0 / (1 + math.e **(-finalTestScores))
         finalTestScores = np.mean(tempFinalTestScores, axis = 0)
 
-        AP = average_precision_score(testingLabels, finalTestScores)
+        AP = util.averagePrecision(finalTestScores, testingLabels)
+
         aps.append(AP)
 
     return aps

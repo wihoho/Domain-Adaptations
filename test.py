@@ -1,9 +1,9 @@
-from sklearn.metrics import average_precision_score
 import numpy as np
+import Utility as util
 
-score = np.array([0.8, 0.4, 0.35, 0.1])
-label = np.array([1, 0 , 1, 0])
+score = np.array([0, 1, -1, 0, 0])
+label = np.array([-1, 1, 1, -1, -1])
 
-ap = average_precision_score(label, score)
+ap = util.averagePrecision(score, label)
 
 print ap

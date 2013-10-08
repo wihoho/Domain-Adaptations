@@ -73,3 +73,23 @@ def generateRandomIndices(semanticLabels, sampleNumberFromEachClass):
         testingIndice.remove(indice)
 
     return trainingIndice, testingIndice
+
+def averagePrecision(scores, labels):
+
+    scores = scores.flatten()
+    sortingIndice = np.argsort(scores)
+    sortedLabels = [labels[i] for i in sortingIndice[::-1]]
+
+    times = 0
+    accumulated = 0
+    for i in range(len(sortedLabels)):
+        if sortedLabels[i] == 1:
+
+            times += 1
+            postive = 0
+            for item in sortedLabels[:i+1]:
+                if item == 1:
+                    postive += 1
+            accumulated += postive / float(i+1)
+
+    return accumulated / times

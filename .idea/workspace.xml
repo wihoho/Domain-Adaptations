@@ -6,20 +6,20 @@
     </list>
     <ignored path="DomainAdaption.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378818052277" ignored="false" />
-    <file path="/test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381216405998" ignored="false" />
-    <file path="/DTMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381155402060" ignored="false" />
-    <file path="/MKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378821088837" ignored="false" />
-    <file path="/AdaptiveSVM.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378874118582" ignored="false" />
-    <file path="/SVM_AT.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378825502878" ignored="false" />
-    <file path="/SVM_T.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378824948795" ignored="false" />
-    <file path="/FR.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378825626823" ignored="false" />
+    <file path="/AMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217791145" ignored="false" />
+    <file path="/test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381216870093" ignored="false" />
+    <file path="/DTMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217851100" ignored="false" />
+    <file path="/MKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217941998" ignored="false" />
+    <file path="/AdaptiveSVM.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217754487" ignored="false" />
+    <file path="/SVM_AT.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217988320" ignored="false" />
+    <file path="/SVM_T.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381218024023" ignored="false" />
+    <file path="/FR.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217906775" ignored="false" />
     <file path="/TestAll.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381154642080" ignored="false" />
     <file path="/checkIndices.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378826708113" ignored="false" />
     <file path="/My_Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829611140" ignored="false" />
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
     <file path="/ConceptAttribute.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379661862269" ignored="false" />
-    <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1380537669326" ignored="false" />
+    <file path="/Utility.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381218672834" ignored="false" />
     <file path="/SoftWeight.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379335718397" ignored="false" />
     <file path="/YoutubeCompression.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1379515955940" ignored="false" />
     <file path="$PROJECT_DIR$/../GaussianMixtureModel/Distances.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1380536608844" ignored="false" />
@@ -55,65 +55,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestAll.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestAll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="0" selection-start="6286" selection-end="7100" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDuanDistance.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestDuanDistance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="135" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AMKL.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AMKL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="0" selection-start="7932" selection-end="7932" vertical-scroll-proportion="0.33240223">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="237" column="11" selection-start="7982" selection-end="7982" vertical-scroll-proportion="0.50432277">
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#23#51#0" expanded="true" />
+                <element signature="e#198#780#0" expanded="false" />
+                <element signature="e#823#865#0" expanded="false" />
+                <element signature="e#905#1135#0" expanded="false" />
+                <element signature="e#1221#3618#0" expanded="false" />
+                <element signature="e#3717#4789#0" expanded="false" />
+                <element signature="e#4853#5060#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metrics.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py">
+      <file leaf-file-name="Utility.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="0" selection-start="6279" selection-end="6279" vertical-scroll-proportion="0.0">
+            <state line="82" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1373509070000" expanded="false" signature="1439:1493" placeholder="import ..." />
-                <marker date="1373509070000" expanded="false" signature="3855:3925" placeholder="import ..." />
-                <marker date="1373509070000" expanded="false" signature="5940:6018" placeholder="import ..." />
-                <marker date="1373509070000" expanded="false" signature="7032:7096" placeholder="import ..." />
-                <marker date="1373509070000" expanded="false" signature="10745:10822" placeholder="import ..." />
-                <marker date="1373509070000" expanded="false" signature="15143:15197" placeholder="import ..." />
+                <element signature="e#145#727#0" expanded="false" />
+                <element signature="e#770#812#0" expanded="false" />
+                <element signature="e#844#914#0" expanded="false" />
+                <element signature="e#965#1568#0" expanded="false" />
+                <element signature="e#1645#2226#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluateGMM.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evaluateGMM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2643" selection-end="2759" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,22 +105,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/YoutubeCompression.py" />
-        <option value="$PROJECT_DIR$/Utility.py" />
-        <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
-        <option value="$PROJECT_DIR$/ConceptAttribute.py" />
         <option value="$PROJECT_DIR$/My_Test.py" />
-        <option value="$PROJECT_DIR$/MKL.py" />
-        <option value="$PROJECT_DIR$/SVM_T.py" />
         <option value="$PROJECT_DIR$/DemoTest.py" />
         <option value="$PROJECT_DIR$/evaluateDifferentWeighting.py" />
         <option value="$PROJECT_DIR$/evaluateGMM.py" />
         <option value="$PROJECT_DIR$/TestAll.py" />
-        <option value="$PROJECT_DIR$/DTMKL.py" />
         <option value="$PROJECT_DIR$/TestDuanDistance.py" />
         <option value="$PROJECT_DIR$/evaluateVoc1000.py" />
-        <option value="$PROJECT_DIR$/AMKL.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
+        <option value="$PROJECT_DIR$/AMKL.py" />
+        <option value="$PROJECT_DIR$/DTMKL.py" />
+        <option value="$PROJECT_DIR$/FR.py" />
+        <option value="$PROJECT_DIR$/MKL.py" />
+        <option value="$PROJECT_DIR$/SVM_AT.py" />
+        <option value="$PROJECT_DIR$/SVM_T.py" />
+        <option value="$PROJECT_DIR$/Utility.py" />
       </list>
     </option>
   </component>
@@ -233,7 +202,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.AMKL">
     <configuration default="false" name="TestAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,8 +372,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="0" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
         <item index="2" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
         <item index="3" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
         <item index="4" class="java.lang.String" itemvalue="Python.TestAll" />
@@ -439,14 +408,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="22" width="1228" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549915" sideWeight="0.6045455" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549915" sideWeight="0.58787876" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4121212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3348485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -521,11 +490,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/checkIndices.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/SoftWeight.py</url>
           <line>40</line>
           <option name="timeStamp" value="124" />
@@ -562,38 +526,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>231</line>
+          <line>232</line>
           <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>202</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>229</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>210</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>199</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/AMKL.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py</url>
@@ -601,88 +535,22 @@
           <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="180" />
+      <option name="time" value="182" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="437" selection-end="437" vertical-scroll-proportion="0.19271949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="40" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.9122056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DemoTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="17" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.19547658">
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.mat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="26" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.56363636">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DTMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.0" />
+        <state line="216" column="22" selection-start="7452" selection-end="7452" vertical-scroll-proportion="0.3655914">
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluateDifferentWeighting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="6286" selection-end="7100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDuanDistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="135" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluateVoc1000.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0">
+        <state line="32" column="38" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.4139785">
           <folding>
             <element signature="e#23#35#0" expanded="true" />
           </folding>
@@ -691,38 +559,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluateGMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2643" selection-end="2759" vertical-scroll-proportion="0.0">
+        <state line="21" column="22" selection-start="532" selection-end="532" vertical-scroll-proportion="0.44623655">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluateVoc1000.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.5728643">
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="22" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.3655914">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MKL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="22" selection-start="2924" selection-end="2924" vertical-scroll-proportion="0.3948052">
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="-4.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftWeight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15591398">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_AT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.3948052">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="22" selection-start="2671" selection-end="2671" vertical-scroll-proportion="0.36363637">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.26277372">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py">
+    <entry file="file://$PROJECT_DIR$/TestAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="0" selection-start="6279" selection-end="6279" vertical-scroll-proportion="0.0">
+        <state line="13" column="22" selection-start="209" selection-end="209" vertical-scroll-proportion="0.34946236">
           <folding>
-            <marker date="1373509070000" expanded="false" signature="1439:1493" placeholder="import ..." />
-            <marker date="1373509070000" expanded="false" signature="3855:3925" placeholder="import ..." />
-            <marker date="1373509070000" expanded="false" signature="5940:6018" placeholder="import ..." />
-            <marker date="1373509070000" expanded="false" signature="7032:7096" placeholder="import ..." />
-            <marker date="1373509070000" expanded="false" signature="10745:10822" placeholder="import ..." />
-            <marker date="1373509070000" expanded="false" signature="15143:15197" placeholder="import ..." />
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDuanDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.38172042">
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.4784946">
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#145#727#0" expanded="false" />
+            <element signature="e#770#812#0" expanded="false" />
+            <element signature="e#844#914#0" expanded="false" />
+            <element signature="e#965#1568#0" expanded="false" />
+            <element signature="e#1645#2226#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="0" selection-start="7932" selection-end="7932" vertical-scroll-proportion="0.33240223">
-          <folding />
+        <state line="237" column="11" selection-start="7982" selection-end="7982" vertical-scroll-proportion="0.50432277">
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+            <element signature="e#198#780#0" expanded="false" />
+            <element signature="e#823#865#0" expanded="false" />
+            <element signature="e#905#1135#0" expanded="false" />
+            <element signature="e#1221#3618#0" expanded="false" />
+            <element signature="e#3717#4789#0" expanded="false" />
+            <element signature="e#4853#5060#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

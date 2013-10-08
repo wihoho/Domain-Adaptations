@@ -3,7 +3,7 @@ from scipy.io import loadmat
 import math
 import numpy as np
 from sklearn.svm import SVC
-from sklearn.metrics import average_precision_score
+import Utility as util
 
 def constructBaseKernels(kernel_type, kernel_params, D2):
 
@@ -81,7 +81,8 @@ def runMKL(distances, labels, trainingIndiceList, testingIndiceList):
         testKernels = returnKernel(coefficients, testingBaseKernels)
 
         testScores = SVMModel.decision_function(testKernels)
-        AP = average_precision_score(testingLabels, testScores)
+        AP = util.averagePrecision(testScores, testingLabels)
+
         aps.append(AP)
 
     return aps
