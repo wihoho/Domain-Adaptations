@@ -239,7 +239,7 @@ if __name__ == "__main__":
 
     distances = []
     distances.append(distanceOne)
-    distances.append(distanceTwo)
+    # distances.append(distanceTwo)
 
     labels = loadmat("labels.mat")['labels']
 

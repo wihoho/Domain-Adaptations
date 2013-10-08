@@ -7,7 +7,7 @@
     <ignored path="DomainAdaption.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378818052277" ignored="false" />
-    <file path="/test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1380808701014" ignored="false" />
+    <file path="/test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381216405998" ignored="false" />
     <file path="/DTMKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381155402060" ignored="false" />
     <file path="/MKL.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378821088837" ignored="false" />
     <file path="/AdaptiveSVM.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378874118582" ignored="false" />
@@ -73,22 +73,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluateVoc1000.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evaluateVoc1000.py">
+      <file leaf-file-name="AMKL.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AMKL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0">
+            <state line="229" column="0" selection-start="7932" selection-end="7932" vertical-scroll-proportion="0.33240223">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#23#35#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMKL.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AMKL.py">
+      <file leaf-file-name="metrics.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="0" selection-start="8249" selection-end="8249" vertical-scroll-proportion="0.7948304">
-              <folding />
+            <state line="197" column="0" selection-start="6279" selection-end="6279" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1373509070000" expanded="false" signature="1439:1493" placeholder="import ..." />
+                <marker date="1373509070000" expanded="false" signature="3855:3925" placeholder="import ..." />
+                <marker date="1373509070000" expanded="false" signature="5940:6018" placeholder="import ..." />
+                <marker date="1373509070000" expanded="false" signature="7032:7096" placeholder="import ..." />
+                <marker date="1373509070000" expanded="false" signature="10745:10822" placeholder="import ..." />
+                <marker date="1373509070000" expanded="false" signature="15143:15197" placeholder="import ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,14 +136,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SoftWeight.py" />
         <option value="$PROJECT_DIR$/YoutubeCompression.py" />
         <option value="$PROJECT_DIR$/Utility.py" />
         <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
         <option value="$PROJECT_DIR$/ConceptAttribute.py" />
         <option value="$PROJECT_DIR$/My_Test.py" />
         <option value="$PROJECT_DIR$/MKL.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/SVM_T.py" />
         <option value="$PROJECT_DIR$/DemoTest.py" />
         <option value="$PROJECT_DIR$/evaluateDifferentWeighting.py" />
@@ -136,6 +150,8 @@
         <option value="$PROJECT_DIR$/DTMKL.py" />
         <option value="$PROJECT_DIR$/TestDuanDistance.py" />
         <option value="$PROJECT_DIR$/evaluateVoc1000.py" />
+        <option value="$PROJECT_DIR$/AMKL.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -217,49 +233,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.evaluateVoc1000">
-    <configuration default="false" name="DemoTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DemoTest.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="evaluateGMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluateGMM.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="TestAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +290,48 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluateVoc1000.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AMKL.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -379,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.DemoTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.evaluateGMM" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TestAll" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
-      <item index="4" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TestAll" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
+      <item index="2" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
+      <item index="3" class="java.lang.String" itemvalue="Python.AMKL" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestAll" />
-        <item index="3" class="java.lang.String" itemvalue="Python.evaluateGMM" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DemoTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="2" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TestAll" />
       </list>
     </recent_temporary>
   </component>
@@ -423,17 +439,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="22" width="1228" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549915" sideWeight="0.6641337" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48176292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549915" sideWeight="0.6045455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33586627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3348485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,16 +560,51 @@
           <line>128</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>231</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="163" />
+      <option name="time" value="180" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/My_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="33" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
@@ -594,11 +645,6 @@
             <element signature="e#23#51#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
@@ -650,9 +696,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="0" selection-start="6279" selection-end="6279" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373509070000" expanded="false" signature="1439:1493" placeholder="import ..." />
+            <marker date="1373509070000" expanded="false" signature="3855:3925" placeholder="import ..." />
+            <marker date="1373509070000" expanded="false" signature="5940:6018" placeholder="import ..." />
+            <marker date="1373509070000" expanded="false" signature="7032:7096" placeholder="import ..." />
+            <marker date="1373509070000" expanded="false" signature="10745:10822" placeholder="import ..." />
+            <marker date="1373509070000" expanded="false" signature="15143:15197" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="0" selection-start="8249" selection-end="8249" vertical-scroll-proportion="0.7948304">
+        <state line="229" column="0" selection-start="7932" selection-end="7932" vertical-scroll-proportion="0.33240223">
           <folding />
         </state>
       </provider>

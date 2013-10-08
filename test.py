@@ -1,18 +1,9 @@
-__author__ = 'GongLi'
-
-import Utility as util
+from sklearn.metrics import average_precision_score
 import numpy as np
 
-# originalDistance = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/Kodak_distanceMatrix_version2.pkl")
-# currentDistance = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/DifferentWeight/txxDistance.pkl")
+score = np.array([0.8, 0.4, 0.35, 0.1])
+label = np.array([1, 0 , 1, 0])
 
+ap = average_precision_score(label, score)
 
-
-ghtLabels = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/DifferentWeight/ghtLabels.pkl")
-tfxLabels = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/DifferentWeight/tfxLabels.pkl")
-txxLabels = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/DifferentWeight/txxLabels.pkl")
-
-originalLabels = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/LevelZero/KodakLabelsLevel0.pkl")
-
-if ghtLabels == tfxLabels == txxLabels == originalLabels:
-    print "Great!!"
+print ap
