@@ -1,8 +1,5 @@
 __author__ = 'GongLi'
 
-
-__author__ = 'GongLi'
-
 from scipy.io import loadmat
 import math
 import numpy as np

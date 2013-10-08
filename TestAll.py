@@ -11,6 +11,7 @@ import AdaptiveSVM
 import numpy as np
 import xlwt
 import time
+import Utility as util
 
 def evaluate(distanceOne, excelName, labels):
 
@@ -212,34 +213,55 @@ def evaluate(distanceOne, excelName, labels):
 
 if __name__ == "__main__":
 
-    distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
-    distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
+    # distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
+    # distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
+    #
+    # distances = []
+    # distances.append(distanceOne)
+    # distances.append(distanceTwo)
+    #
+    # templabels = loadmat("labels.mat")['labels']
+    #
+    # # SIFT Level 0
+    # tempList = []
+    # tempList.append(distanceOne)
+    #
+    # evaluate(tempList, "SIFT_L0_Result.xls", tempList)
+    # print "SIFT L0"
+    #
+    # # SIFT Level 1
+    # tempList = []
+    # tempList.append(distanceTwo)
+    #
+    # evaluate(tempList, "SIFT_L1_Result.xls", tempList)
+    # print "SIFT L1"
+    #
+    # # SIFT Level 0 & 1
+    # tempList = []
+    # tempList.append(distanceTwo)
+    # tempList.append(distanceOne)
+    # evaluate(tempList, "SIFT_L0_L1_Result.xls", tempList)
+    # print "SIFT L0 & 1"
 
-    distances = []
-    distances.append(distanceOne)
-    distances.append(distanceTwo)
+    GmmDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/GMM/Spherical Covariance/All 128/All_GMM_distances.pkl")
+    EMDNormalDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/Normal/all_DistanceMatrix_Level0.pkl")
+    EMDSoftWeightDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/SoftWeight/all_softWeight_distance.pkl")
+    tempLabels = loadmat("labels.mat")['labels']
 
-    templabels = loadmat("labels.mat")['labels']
+    tempDis = []
+    tempDis.append(GmmDis)
+    evaluate(tempDis, "2013.10.7/GMM_Spherical_128_Result.xls", tempLabels)
 
-    # SIFT Level 0
-    tempList = []
-    tempList.append(distanceOne)
+    tempDis = []
+    tempDis.append(EMDNormalDis)
+    evaluate(tempDis, "2013.10.7/EMD_Normal_LevelZero_Result.xls", tempLabels)
 
-    evaluate(tempList, "SIFT_L0_Result.xls", tempList)
-    print "SIFT L0"
+    tempDis = []
+    tempDis.append(EMDSoftWeightDis)
+    evaluate(tempDis, "2013.10.7/EMD_SoftWeight_Result.xls", tempLabels)
 
-    # SIFT Level 1
-    tempList = []
-    tempList.append(distanceTwo)
 
-    evaluate(tempList, "SIFT_L1_Result.xls", tempList)
-    print "SIFT L1"
 
-    # SIFT Level 0 & 1
-    tempList = []
-    tempList.append(distanceTwo)
-    tempList.append(distanceOne)
-    evaluate(tempList, "SIFT_L0_L1_Result.xls", tempList)
-    print "SIFT L0 & 1"
+
 
 

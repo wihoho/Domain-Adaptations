@@ -85,17 +85,21 @@ def train_amkl(training_labels, training_basekernels, mmd_values, fp, lam, C):
 
         coefficients_new = coefficients_newTwo
 
+        coefficients_new = np.array(coefficients_new)
+        coefficients = np.array(coefficients)
+
         # run with new coefficients
         eta_t = step_size
 
         coefficients_cur = [eta_t * coefficients_new[i] + (1 - eta_t) * coefficients[i] for i in range(len(coefficients_new))]
+        coefficients_cur = np.array(coefficients_cur)
 
         tempModel, tempObj, q = returnAlpha(h, numberOfBaseKernels, coefficients_cur, training_labels, training_basekernels,add_kernel, C, theta)
 
         iter_ls = 0
         while tempObj > objectives[-1] and iter_ls < MAX_ITER_LS:
             eta_t = step_size * eta_t
-            coefficients_cur = eta_t * coefficients_new + (1 - eta_t) * coefficients
+            coefficients_cur = eta_t * coefficients_new + (1.0 - eta_t) * coefficients
             tempModel, tempObj, q = returnAlpha(h, numberOfBaseKernels, coefficients_cur, training_labels, training_basekernels,add_kernel, C, theta)
 
             iter_ls += 1
