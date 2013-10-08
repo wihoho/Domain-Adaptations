@@ -207,58 +207,32 @@ def evaluate(distanceOne, excelName, labels):
     ws.write(i+1, 0, meanAP)
     ws.write(i+1, 1, sd)
 
-    print "A-SVM: " +str(meanAP)
+    print "A-MKL: " +str(meanAP)
 
     wb.save(excelName)
 
 if __name__ == "__main__":
 
-    # distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
-    # distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
-    #
-    # distances = []
-    # distances.append(distanceOne)
-    # distances.append(distanceTwo)
-    #
-    # templabels = loadmat("labels.mat")['labels']
-    #
-    # # SIFT Level 0
-    # tempList = []
-    # tempList.append(distanceOne)
-    #
-    # evaluate(tempList, "SIFT_L0_Result.xls", tempList)
-    # print "SIFT L0"
-    #
-    # # SIFT Level 1
-    # tempList = []
-    # tempList.append(distanceTwo)
-    #
-    # evaluate(tempList, "SIFT_L1_Result.xls", tempList)
-    # print "SIFT L1"
-    #
-    # # SIFT Level 0 & 1
-    # tempList = []
-    # tempList.append(distanceTwo)
-    # tempList.append(distanceOne)
-    # evaluate(tempList, "SIFT_L0_L1_Result.xls", tempList)
-    # print "SIFT L0 & 1"
-
     GmmDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/GMM/Spherical Covariance/All 128/All_GMM_distances.pkl")
     EMDNormalDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/Normal/all_DistanceMatrix_Level0.pkl")
     EMDSoftWeightDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/SoftWeight/all_softWeight_distance.pkl")
+
+    distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
+    distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
+
     tempLabels = loadmat("labels.mat")['labels']
 
-    tempDis = []
-    tempDis.append(GmmDis)
-    evaluate(tempDis, "2013.10.7/GMM_Spherical_128_Result.xls", tempLabels)
 
-    tempDis = []
-    tempDis.append(EMDNormalDis)
-    evaluate(tempDis, "2013.10.7/EMD_Normal_LevelZero_Result.xls", tempLabels)
+    distances = []
+    distances.append(GmmDis)
+    distances.append(EMDNormalDis)
+    distances.append(EMDSoftWeightDis)
+    distances.append(distanceOne)
+    distances.append(distanceTwo)
 
-    tempDis = []
-    tempDis.append(EMDSoftWeightDis)
-    evaluate(tempDis, "2013.10.7/EMD_SoftWeight_Result.xls", tempLabels)
+    evaluate(distances, "FusedDistancesResults.xls", tempLabels)
+
+
 
 
 

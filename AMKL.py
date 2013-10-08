@@ -60,9 +60,7 @@ def train_amkl(training_labels, training_basekernels, mmd_values, fp, lam, C):
     coefficients = [1.0 / numberOfBaseKernels] * numberOfBaseKernels
     objectives = []
 
-    sizeFP = len(fp)
-    fp = np.array(fp).reshape((sizeFP, 1))
-    add_kernel = np.dot(fp, np.transpose(fp)) / lam
+    add_kernel = np.dot(np.transpose(fp), fp) / lam
 
     # Adaptive learning
     tempModel, tempObj, q = returnAlpha(h, numberOfBaseKernels, coefficients, training_labels, training_basekernels, add_kernel, C, theta)
@@ -173,56 +171,70 @@ def runAMKL(distances, labels, trainingIndiceList, testingIndiceList):
 
         # Construct base kernels & pre-learned classifier
         baseKernel = constructBaseKernels(["rbf", "lap", "isd","id"], kernel_params, distance)
-        baseKernels += baseKernel
+        baseKernels.append(baseKernel)
 
 
     aps = []
     for classNum in range(labels.shape[1]):
-        decisionValues = np.zeros((labels.shape[0])).reshape(1, labels.shape[0]) # class * number of kernels
         thisClassLabels = labels[::, classNum]
         trainingLabels = [thisClassLabels[index] for index in trainingIndiceList]
         testingLabels = [thisClassLabels[index] for index in testingIndiceList]
 
         # pre-learned classifiers' score
+        all_fp = []
         for m in range(len(baseKernels)):
-            baseKernel = baseKernels[m]
-            Ktrain = sliceArray(baseKernel, trainingIndiceList)
-            Ktest = baseKernel[::, trainingIndiceList]
+            setOfBaseKernel = baseKernels[m]
 
-            clf = SVC(kernel="precomputed")
-            clf.fit(Ktrain, trainingLabels)
+            decisionValues = []
+            for baseKernel in setOfBaseKernel:
+                Ktrain = sliceArray(baseKernel, trainingIndiceList)
+                Ktest = baseKernel[::, trainingIndiceList]
 
-            dv = clf.decision_function(Ktest)
-            dv = dv.reshape(1, Ktest.shape[0])
-            decisionValues = np.vstack((decisionValues, dv))
+                clf = SVC(kernel="precomputed")
+                clf.fit(Ktrain, trainingLabels)
 
-        decisionValues = decisionValues[1:]
-        averageDV = np.mean(decisionValues, axis = 0)
+                dv = clf.decision_function(Ktest)
+                dv = dv.reshape(1, Ktest.shape[0])
+                decisionValues.append(dv)
+
+            decisionValues = np.vstack(decisionValues)
+            averageDV = np.mean(decisionValues, axis = 0)
+            all_fp.append(averageDV)
+
+        all_fp = np.vstack(all_fp)
 
         # MMD
-        s = np.zeros((baseKernels[0].shape[0]))
+        AllKernels = []
+        for setKernels in baseKernels:
+            AllKernels += setKernels
+
+        s = np.zeros((AllKernels[0].shape[0]))
         s[0:195] =  -1.0 / 195
         s[195:] = 1.0 / 906
 
-        s = s.reshape((baseKernels[0].shape[0], 1))
-        mmd_values = calculateMMD(baseKernels, s)
+        s = s.reshape((AllKernels[0].shape[0], 1))
+        mmd_values = calculateMMD(AllKernels, s)
 
         # AMKL
         trainingBaseKernls = []
         testingBaseKernels = []
 
-        for baseKernel in baseKernels:
-            tempKernel = sliceArray(baseKernel, trainingIndiceList)
-            trainingBaseKernls.append(tempKernel)
+        for setOfbaseKernel in baseKernels:
+            for baseKernel in setOfbaseKernel:
 
-            tempKernel = baseKernel[np.ix_(testingIndiceList, trainingIndiceList)]
-            testingBaseKernels.append(tempKernel)
+                tempKernel = sliceArray(baseKernel, trainingIndiceList)
+                trainingBaseKernls.append(tempKernel)
 
-        trainingFP = [averageDV[index] for index in trainingIndiceList]
-        testingFP = [averageDV[index] for index in testingIndiceList]
+                tempKernel = baseKernel[np.ix_(testingIndiceList, trainingIndiceList)]
+                testingBaseKernels.append(tempKernel)
+
+        sizeOfDistances = len(baseKernels)
+        rows = [i for i in range(sizeOfDistances)]
+        trainingFP = all_fp[np.ix_(rows, trainingIndiceList)]
+        testingFP = all_fp[np.ix_(rows, testingIndiceList)]
 
         coefficients, SVMmodel, objectives = train_amkl(trainingLabels, trainingBaseKernls, mmd_values, trainingFP, 20.0, 1)
-        test_addKernel = np.dot(np.array(testingFP).reshape((len(testingIndiceList), 1)), np.array(trainingFP).reshape((1, len(trainingIndiceList)))) / 20.0
+        test_addKernel = np.dot(np.transpose(testingFP), trainingFP) / 20.0
         testKernels = returnKernel(coefficients, testingBaseKernels, test_addKernel)
 
         testScores = SVMmodel.decision_function(testKernels)
@@ -239,8 +251,8 @@ if __name__ == "__main__":
     distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
 
     distances = []
+    distances.append(distanceTwo)
     distances.append(distanceOne)
-    # distances.append(distanceTwo)
 
     labels = loadmat("labels.mat")['labels']
 

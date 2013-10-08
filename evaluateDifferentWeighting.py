@@ -42,7 +42,7 @@ def processMatrix(name, arrayForProcess):
     print name + "_standard deviation: "+str(sd)
 
 
-def predefinedIndices(distance):
+def predefinedIndices(methodName, distance):
 
     distances = []
     distances.append(distance)
@@ -79,9 +79,7 @@ def predefinedIndices(distance):
     rowMean = np.mean(all_aps, axis=1)
     sd = np.std(rowMean)
 
-    print "meanAP: "+str(meanAP)
-    print "standard deviation: "+str(sd)
-    print ""
+    print methodName+"\t"+str(meanAP)+ u" \u00B1 " +str(sd)
 
 
 if __name__ == "__main__":
@@ -122,11 +120,11 @@ if __name__ == "__main__":
     all_soft = []
     all_orighinal = []
 
-    predefinedIndices(bxxDistance)
-    predefinedIndices(txxDistance)
-    predefinedIndices(txcDistance)
-    predefinedIndices(tfxDistance)
-    predefinedIndices(tfcDistance)
-    predefinedIndices(softDistance)
-    predefinedIndices(origianalDistance)
+    predefinedIndices("bxx", bxxDistance)
+    predefinedIndices("txx", txxDistance)
+    predefinedIndices("txc", txcDistance)
+    predefinedIndices("tfx", tfxDistance)
+    predefinedIndices("tfc", tfcDistance)
+    predefinedIndices("soft", softDistance)
+    predefinedIndices("original", origianalDistance)
 

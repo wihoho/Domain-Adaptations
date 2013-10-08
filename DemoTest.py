@@ -5,6 +5,8 @@ import math
 import numpy as np
 from sklearn.svm import SVC
 import Utility as util
+from sklearn.metrics import confusion_matrix
+import pylab as pl
 
 def constructBaseKernels(kernel_type, kernel_params, D2):
 
@@ -140,6 +142,12 @@ def runSVM_T(distances, labels, targetTrainingIndice, targetTestingIndice):
         accuracy = correct / len(TestingLabels)
 
         print str(accuracy)
+
+        cm = confusion_matrix(TestingLabels, prediction)
+        # Show confusion matrix
+        pl.matshow(cm)
+        pl.title('Confusion matrix')
+        pl.show()
 
 
 if __name__ == "__main__":

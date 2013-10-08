@@ -21,19 +21,19 @@ if __name__ == "__main__":
     tempList = []
     tempList.append(distanceOne)
 
-    TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.7/SIFT_L0_Result.xls", tempLabels)
+    TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.8/SIFT_L0_Result.xls", tempLabels)
     print "SIFT L0"
 
     # SIFT Level 1
     tempList = []
     tempList.append(distanceTwo)
 
-    TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.7/SIFT_L1_Result.xls", tempLabels)
+    TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.8/SIFT_L1_Result.xls", tempLabels)
     print "SIFT L1"
 
-    # SIFT Level 0 & 1
-    tempList = []
-    tempList.append(distanceTwo)
-    tempList.append(distanceOne)
-    TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.7/SIFT_L0_L1_Result.xls", tempLabels)
-    print "SIFT L0 & 1"
+    # # SIFT Level 0 & 1
+    # tempList = []
+    # tempList.append(distanceTwo)
+    # tempList.append(distanceOne)
+    # TestAll.evaluate(tempList, "/Users/GongLi/PycharmProjects/DomainAdaption/DuanSetResult/2013.10.8/SIFT_L0_L1_Result.xls", tempLabels)
+    # print "SIFT L0 & 1"

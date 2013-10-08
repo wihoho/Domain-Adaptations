@@ -60,18 +60,18 @@ if __name__ == "__main__":
 
 
     meanAP, std = predefinedIndices(FullPCA36_50)
-    print "FullPCA36_50: mean: " +   str(meanAP) +"std: "+str(std)
+    print "FullPCA36_50\t" +str(meanAP) +u" \u00B1 " +str(std)
 
     meanAP, std = predefinedIndices(FullPCA64_50)
-    print "FullPCA64_50 mean: " +   str(meanAP) +"std: "+str(std)
+    print "FullPCA64_50\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
     meanAP, std = predefinedIndices(SphericalPCA128_ALL_50)
-    print "SphericalPCA128_ALL_50 mean: " +   str(meanAP) +"std: "+str(std)
+    print "SphericalPCA128_ALL_50\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
 
     meanAP, std = predefinedIndices(SphericalPCA64_Kodak_50)
-    print "SphericalPCA64_Kodak_50 mean: " +   str(meanAP) +"std: "+str(std)
+    print "SphericalPCA64_Kodak_50\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
     meanAP, std = predefinedIndices(EMD_level0)
-    print "EMD level 0: " + str(meanAP) +" std: "+str(std)
+    print "EMD level 0\t" + str(meanAP) +u" \u00B1 "+str(std)
 

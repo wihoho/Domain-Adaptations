@@ -52,13 +52,13 @@ if __name__ == "__main__":
     GmmAssign = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc1000/Kodak_GMM_Assignment_Distance.pkl")
 
     meanAP, std = predefinedIndices(levelZero)
-    print "L0\t" +   str(meanAP) +"\t"+str(std)
+    print "L0\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
     meanAP, std = predefinedIndices(levelOneUnaligned)
-    print "Level 1 unaligned\t" +   str(meanAP) +"\t"+str(std)
+    print "Level 1 unaligned\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
     meanAP, std = predefinedIndices(levelOneAligned)
-    print "Level 1 aligned\t" +   str(meanAP) +"\t"+str(std)
+    print "Level 1 aligned\t" +   str(meanAP) +u" \u00B1 "+str(std)
 
     meanAP, std = predefinedIndices(GmmAssign)
-    print "GMM assignment\t" +   str(meanAP) +"\t"+str(std)
+    print "GMM assignment\t" +   str(meanAP)+u" \u00B1 "+str(std)
