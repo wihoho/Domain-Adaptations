@@ -14,7 +14,7 @@
     <file path="/SVM_AT.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217988320" ignored="false" />
     <file path="/SVM_T.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381218024023" ignored="false" />
     <file path="/FR.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381217906775" ignored="false" />
-    <file path="/TestAll.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381238691381" ignored="false" />
+    <file path="/TestAll.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1382316895688" ignored="false" />
     <file path="/checkIndices.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378826708113" ignored="false" />
     <file path="/My_Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378829611140" ignored="false" />
     <file path="/Dummy.txt" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1378873288632" ignored="false" />
@@ -36,7 +36,10 @@
     <file path="$PROJECT_DIR$/../GaussianMixtureModel/Test.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381152851363" ignored="false" />
     <file path="/TestDuanDistance.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381156986232" ignored="false" />
     <file path="/evaluateVoc1000.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381157785850" ignored="false" />
-    <file path="/evaluate2500.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381239967504" ignored="false" />
+    <file path="/evaluate2500.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1381979078534" ignored="false" />
+    <file path="$PROJECT_DIR$/../ImageRecognition/Report_EMD.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1382028298121" ignored="false" />
+    <file path="/Report_EMD.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1382028295740" ignored="false" />
+    <file path="/Report.py" changelist="913016d1-2c6c-443f-8360-3a61f423badd" time="1382167339491" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,35 @@
     <favorites_list name="DomainAdaption" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Report.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.27565393">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConceptAttribute.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="142" column="38" selection-start="5464" selection-end="5464" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAll.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="202" column="0" selection-start="6046" selection-end="6046" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/AdaptiveSVM.py" />
         <option value="$PROJECT_DIR$/DTMKL.py" />
         <option value="$PROJECT_DIR$/FR.py" />
@@ -87,16 +117,17 @@
         <option value="$PROJECT_DIR$/DemoTest.py" />
         <option value="$PROJECT_DIR$/AMKL.py" />
         <option value="$PROJECT_DIR$/TestDuanDistance.py" />
-        <option value="$PROJECT_DIR$/TestAll.py" />
         <option value="$PROJECT_DIR$/evaluate2500.py" />
+        <option value="$PROJECT_DIR$/Report.py" />
+        <option value="$PROJECT_DIR$/TestAll.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
+    <option name="x" value="57" />
     <option name="y" value="22" />
-    <option name="width" value="1228" />
-    <option name="height" value="778" />
+    <option name="width" value="1383" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -152,7 +183,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DuanSetResult" />
+              <option name="myItemId" value="Distances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voc2500" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -166,7 +201,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2013.10.8" />
+              <option name="myItemId" value="Distances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voc2500" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LevelZero" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,7 +223,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2013.10.7" />
+              <option name="myItemId" value="Distances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voc2500" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LevelZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomainAdaption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Distances" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,12 +261,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VisualEventRecognitionDemo" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GaussianMixtureModel" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -209,10 +278,89 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Distances/GMM/Full Covariance" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.evaluate2500">
+  <component name="RunManager" selected="Python.TestAll">
+    <configuration default="false" name="Report" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Report.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVM_T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_T.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AMKL.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DTMKL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DomainAdaption" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DTMKL.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="TestAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,82 +375,6 @@
       <module name="DomainAdaption" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestAll.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestDuanDistance" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestDuanDistance.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="evaluateDifferentWeighting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluateDifferentWeighting.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="evaluateVoc1000" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluateVoc1000.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="evaluate2500" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DomainAdaption" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate2500.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -368,19 +440,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.TestAll" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
-      <item index="2" class="java.lang.String" itemvalue="Python.evaluateDifferentWeighting" />
-      <item index="3" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
-      <item index="4" class="java.lang.String" itemvalue="Python.evaluate2500" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Report" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SVM_T" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AMKL" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DTMKL" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TestAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.evaluate2500" />
-        <item index="1" class="java.lang.String" itemvalue="Python.evaluateVoc1000" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestAll" />
-        <item index="3" class="java.lang.String" itemvalue="Python.evaluateDifferentWeighting" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TestDuanDistance" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TestAll" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DTMKL" />
+        <item index="2" class="java.lang.String" itemvalue="Python.AMKL" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Report" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SVM_T" />
       </list>
     </recent_temporary>
   </component>
@@ -411,18 +483,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="22" width="1228" height="778" extended-state="6" />
-    <editor active="false" />
+    <frame x="57" y="22" width="1383" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22646311" sideWeight="0.7439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549915" sideWeight="0.69148934" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4318182" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923355" sideWeight="0.6871009" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29441625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30851063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,157 +615,129 @@
           <line>281</line>
           <option name="timeStamp" value="220" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AMKL.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/DTMKL.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="221" />
+      <option name="time" value="229" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+    <entry file="file://$PROJECT_DIR$/DemoTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="22" selection-start="2671" selection-end="2671" vertical-scroll-proportion="0.36363637">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
+        <state line="121" column="23" selection-start="3541" selection-end="3541" vertical-scroll-proportion="1.8598382">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDuanDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.20662251" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.26277372">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YoutubeCompression.py">
+    <entry file="file://$PROJECT_DIR$/Distances/voc2500/LevelZero/All/Normal/all_labels_Level0.pkl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.4784946">
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utility.py">
+    <entry file="file://$PROJECT_DIR$/evaluateDifferentWeighting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.4425428">
-          <folding>
-            <element signature="e#145#727#0" expanded="false" />
-            <element signature="e#770#812#0" expanded="false" />
-            <element signature="e#844#914#0" expanded="false" />
-            <element signature="e#965#1568#0" expanded="false" />
-            <element signature="e#1645#2226#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="31" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluateGMM.py">
+    <entry file="file://$PROJECT_DIR$/Distances/GMM/Full Covariance/128_Full_GMM_n_iteration50_KodakDistances.pkl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="67" selection-start="3125" selection-end="3138" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#22#34#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/scikit_learn-0.14_git-py2.7-macosx-10.8-intel.egg/sklearn/metrics/metrics.py">
+    <entry file="file://$PROJECT_DIR$/FR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="552" column="25" selection-start="18680" selection-end="18685" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DemoTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="27" selection-start="4068" selection-end="4068" vertical-scroll-proportion="0.5669516">
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/596071422/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3204" column="8" selection-start="108932" selection-end="108932" vertical-scroll-proportion="-15.735043">
-          <folding />
-        </state>
+        <state line="22" column="51" selection-start="545" selection-end="545" vertical-scroll-proportion="-0.08355795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdaptiveSVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#175#757#0" expanded="false" />
-            <element signature="e#800#842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MKL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="3956" selection-end="3956" vertical-scroll-proportion="0.8032787">
-          <folding>
-            <element signature="e#22#50#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="70" column="79" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="0" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.82608694">
+        <state line="105" column="34" selection-start="3393" selection-end="3393" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#23#51#0" expanded="true" />
             <element signature="e#198#780#0" expanded="false" />
             <element signature="e#823#865#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluateDifferentWeighting.py">
+    <entry file="file://$PROJECT_DIR$/DTMKL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2631" selection-end="2631" vertical-scroll-proportion="0.20289855">
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
+        <state line="210" column="0" selection-start="6939" selection-end="6939" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDuanDistance.py">
+    <entry file="file://$PROJECT_DIR$/evaluateGMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.32608697">
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluateVoc1000.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1823" selection-end="1924" vertical-scroll-proportion="0.46376812">
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-            <element signature="e#146#1249#0" expanded="false" />
-          </folding>
+        <state line="61" column="49" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluate2500.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="62" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5217391">
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
+        <state line="35" column="44" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="16" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="0" selection-start="7165" selection-end="7165" vertical-scroll-proportion="0.8056266">
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
+        <state line="202" column="0" selection-start="6046" selection-end="6046" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConceptAttribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="38" selection-start="5464" selection-end="5464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.27565393">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -216,21 +216,25 @@ if __name__ == "__main__":
     GmmDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/GMM/Spherical Covariance/All 128/All_GMM_distances.pkl")
     EMDNormalDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/Normal/all_DistanceMatrix_Level0.pkl")
     EMDSoftWeightDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/SoftWeight/all_softWeight_distance.pkl")
+    Tfc_Level0 = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelZero/All/tfc_all_distance.pkl")
 
-    distanceOne = loadmat("dist_SIFT_L0.mat")['distMat']
-    distanceTwo = loadmat("dist_SIFT_L1.mat")['distMat']
+
+    EMDLevelOneUnalignedDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelOne/Unaligned_LevelOne_All_Distance.pkl")
+    EMDLevelOneAlignedDis = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc2500/LevelOne/Aligned_LevelOne_All_Distance.pkl")
+
+    Voc1000_GaussianAssignment = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc1000/All/GMM_ALL_Distance.pkl")
+    Voc1000_LevelZero = util.loadObject("/Users/GongLi/PycharmProjects/DomainAdaption/Distances/voc1000/All/LevelZero_ALL_Distance.pkl")
 
     tempLabels = loadmat("labels.mat")['labels']
 
 
     distances = []
-    distances.append(GmmDis)
-    distances.append(EMDNormalDis)
-    distances.append(EMDSoftWeightDis)
-    distances.append(distanceOne)
-    distances.append(distanceTwo)
+    # distances.append(Voc1000_GaussianAssignment)
+    # distances.append(EMDLevelOneAlignedDis)
+    # distances.append(Voc1000_LevelZero)
+    distances.append(Tfc_Level0)
 
-    evaluate(distances, "FusedDistancesResults.xls", tempLabels)
+    evaluate(distances, "tfcHistogramsLevel0.xls", tempLabels)
 
 
 
