@@ -35,6 +35,11 @@ def loadObject(fileName):
     obj = pickle.load(file)
     return obj
 
+def storeObject(fileName, obj):
+    file = open(fileName, "wb")
+    pickle.dump(obj, file)
+    file.close()
+
 def generateBinaryLabels(compressedLabels):
 
     setlabels = ["birthday","parade","picnic","show", "sports", "wedding"]
@@ -93,3 +98,22 @@ def averagePrecision(scores, labels):
             accumulated += postive / float(i+1)
 
     return accumulated / times
+
+
+def evaluateAccuracy(predictions, trueLabels):
+
+    temp = predictions == trueLabels
+    correct = sum(1.0 * (predictions == trueLabels))
+    accuracy = correct / len(trueLabels)
+    return accuracy
+
+def paris(classes):
+
+    results = []
+    for i in range(0 ,len(classes) - 1):
+        for j in range(i + 1, len(classes)):
+            temp = []
+            temp.append(classes[i])
+            temp.append(classes[j])
+            results.append(temp)
+    return results

@@ -143,11 +143,11 @@ def runSVM_T(distances, labels, targetTrainingIndice, targetTestingIndice):
 
         print str(accuracy)
 
-        cm = confusion_matrix(TestingLabels, prediction)
-        # Show confusion matrix
-        pl.matshow(cm)
-        pl.title('Confusion matrix')
-        pl.show()
+        # cm = confusion_matrix(TestingLabels, prediction)
+        # # Show confusion matrix
+        # pl.matshow(cm)
+        # pl.title('Confusion matrix')
+        # pl.show()
 
 
 if __name__ == "__main__":
