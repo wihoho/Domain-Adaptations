@@ -249,7 +249,6 @@ def runAMKL(distances, labels, trainingIndiceList, testingIndiceList):
     ranks = np.argmax(scores, axis=0)
 
     labelSet = ["birthday", "parade", "picnic", "show", "sports", "wedding"]
-    predictLabels = [labelSet[i] for i in ranks]
 
     return aps
 

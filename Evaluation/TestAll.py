@@ -96,7 +96,7 @@ def evaluate(distanceOne, excelName, labels):
         DT_SVM_aps.append(aps)
 
         startTime = time.time()
-        aps, predict = AMKL.runAMKL(distanceOne, labels, trainingIndiceList, testingIndiceList)
+        aps = AMKL.runAMKL(distanceOne, labels, trainingIndiceList, testingIndiceList)
         endTime = time.time()
         runningTimeWs.write(6, runningTimeIndex, endTime - startTime)
         A_MKL_aps.append(aps)
